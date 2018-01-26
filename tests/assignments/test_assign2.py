@@ -1,5 +1,5 @@
 import unittest
-from assignment2 import faculty_evaluation_result
+from src.assignments.assignment2 import faculty_evaluation_result
 
 class Test_Assignment2(unittest.TestCase):
 
