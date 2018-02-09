@@ -2,4 +2,4 @@ language: python
 python:
   - "3.6"
 script:
-   - python -m unittest tests.homework.test_assign43 -v
+   - python -m unittest tests.homework.test_assign4 -v
