@@ -1,1 +1,1 @@
-import src.homework.main.main_homework3
+import src.assignments.main_assignment6
