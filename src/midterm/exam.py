@@ -74,8 +74,14 @@ ataD gnirtS yM
 CREATE A TEST CASE IN THE exam_test.py file.
 '''
 def reverse_string(string1):
-    return string1[::-1]
-
+    reverse = ''
+    i = len(string1)-1
+    
+    while i >= 0:
+        reverse += string1[i]
+        i -= 1
+    
+    return reverse
 
 
 
@@ -136,6 +142,6 @@ def get_list_min_max_file():
 
     #print(master_list)
     result = [min(master_list),max(master_list)]
-    return result
     infile.close()
+    return result
     
